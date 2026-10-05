@@ -145,11 +145,6 @@ Expected result:
 ```text
 Terraform has been successfully initialized!
 ```
-
-### Screenshot
-
-![Terraform Init](screenshots/terraform-init.png)
-
 ---
 
 ## 4. Validate Terraform Configuration
@@ -181,11 +176,6 @@ Expected result:
 ```text
 Plan: 2 to add, 0 to change, 0 to destroy.
 ```
-
-### Screenshot
-
-![Terraform Plan](screenshots/terraform-plan.png)
-
 ---
 
 ## 6. Apply Terraform Configuration
@@ -207,11 +197,6 @@ Expected result:
 ```text
 Apply complete! Resources: 2 added, 0 changed, 0 destroyed.
 ```
-
-### Screenshot
-
-![Terraform Apply](screenshots/terraform-apply.png)
-
 ---
 
 # 🐳 7. Check Docker Container
@@ -227,11 +212,6 @@ The container should be visible:
 ```text
 terraform-nginx
 ```
-
-### Screenshot
-
-![Docker Container](screenshots/docker-container.png)
-
 ---
 
 # 🌐 8. Access Nginx
@@ -243,10 +223,6 @@ http://localhost:8080
 ```
 
 The Nginx welcome page should be displayed.
-
-### Screenshot
-
-![Nginx Browser](screenshots/nginx-browser.png)
 
 ---
 
@@ -294,11 +270,6 @@ Expected result:
 ```text
 Destroy complete! Resources: 2 destroyed.
 ```
-
-### Screenshot
-
-![Terraform Destroy](screenshots/terraform-destroy.png)
-
 ---
 
 # 🔄 Terraform Workflow
